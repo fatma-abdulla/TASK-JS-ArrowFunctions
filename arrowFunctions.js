@@ -5,6 +5,8 @@ function greet(name) {
   return `Hello ${name}`;
 }
 
+const greet = (name) => `Hello ${name}`;
+
 /**
  * sum(a, b):
  * - revieces two numbers
@@ -13,6 +15,7 @@ function greet(name) {
  */
 function sum(a, b) {
   // Your code here
+  const sum = (a, b) => a + b;
 }
 
 /**
@@ -27,6 +30,7 @@ function sum(a, b) {
  */
 function square(n) {
   // Your code here
+  const square = (n) => n * n;
 }
 
 /**
@@ -41,6 +45,7 @@ function square(n) {
  */
 function squares(numbers) {
   // Your code here
+  const squares = (numbers) => numbers.map((n) => n * n);
 }
 
 module.exports = {
